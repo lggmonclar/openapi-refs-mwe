@@ -1,0 +1,6 @@
+dependencies {
+    implementation project(":common")
+
+    api "io.vertx:vertx-web:4.0.2"
+    api "io.vertx:vertx-web-openapi:4.0.2"
+}

@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: "My micro service"
+servers:
+  - url: /
+paths:
+  /foo:
+    $ref: "common/foo.yaml#/Foo" # works, as this file is in the project's directory and added to the cache when 'service-spec.yaml' is loaded.
+  /ping:
+    $ref: "common/ping.yaml#/Ping" # doesn't work, because even though it is on the classpath, it's not put in the cache.

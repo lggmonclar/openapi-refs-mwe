@@ -1,0 +1,10 @@
+rootProject.name = 'base'
+
+include 'common'
+project(':common').projectDir = file("./common")
+project(':common').name = 'common'
+
+include 'micro-service'
+project(':micro-service').projectDir = file("./micro-service")
+project(':micro-service').name = 'micro-service'
+

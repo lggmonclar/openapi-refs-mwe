@@ -1,0 +1,35 @@
+# Ignore all preferences and local user folders
+
+**/.gradle
+**/.idea
+**/.settings
+**/.vertx
+
+# Eclipse files
+**/.project
+**/.classpath
+
+# IntelliJ
+# User-specific stuff
+**/.idea/**/*.xml
+**/.idea/**/.name
+**/.idea/sonarlint/issuestore
+*.iml
+!**/.idea/runConfigurations/*.xml
+
+# Java ignore files
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+!gradle-wrapper.jar
+
+# Gradle build folders
+**/build/**
+**/out/**
+**/bin/**
+**/obj/**

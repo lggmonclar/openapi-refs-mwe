@@ -1,0 +1,9 @@
+Foo:
+  get:
+    summary: Foo
+    operationId: foo
+    responses:
+      200:
+        description: Foo.
+    tags:
+      - server

@@ -1,0 +1,9 @@
+Ping:
+  get:
+    summary: Ping to test the connection to the server.
+    operationId: ping
+    responses:
+      200:
+        description: Ping the server. A 200 response code means that the ping succeeded.
+    tags:
+      - server
